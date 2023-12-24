@@ -6,9 +6,9 @@ dosseg
 main proc
   mov ah,1
   int 21h
-  mov bl,al
-  mov dl,32
-  sub dl,bl
+  mov dl,al
+  mov bh,32
+  sub dl,bh
   mov ah,2
   int 21h
 mov ah,4ch

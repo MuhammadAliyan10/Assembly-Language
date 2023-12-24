@@ -22,8 +22,6 @@ main proc
     sub dx,1
     loop L2
         mov ah,4ch
-        int 21h
-    
-        
+        int 21h 
 main endp
 end main
