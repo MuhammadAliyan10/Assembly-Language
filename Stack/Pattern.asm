@@ -7,7 +7,7 @@ main proc
     mov bx,1 ;!The value of bx is 1
     mov cx,5 ;!Lopp will run 5 times
     l1:
-        push cx ;! PUshing the value 
+        push cx ;! Pushing the value 
         mov cx,bx
     l2:
         mov dl,'*'

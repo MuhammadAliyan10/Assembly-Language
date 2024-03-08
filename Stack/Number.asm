@@ -5,8 +5,7 @@ dosseg
 .code
 main proc
     mov bx,1 ;!The value of bx is 1
-    mov cx,4 ;!Lopp will run 5 times
-       
+    mov cx,4 ;!Lopp will run 4 times
 
     l1:
         push cx ;! PUshing the value 

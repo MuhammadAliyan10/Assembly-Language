@@ -21,3 +21,9 @@ main proc
         int  21h
 main endp
 end main
+
+
+;!2
+;!1
+;? ax = 2
+;? bx = 1
