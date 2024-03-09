@@ -6,8 +6,9 @@ dosseg
     msgneg db 'Given number is Negitive $'
     msgpos db 'Given number is Positive $'
 .code
-                mov dx,@data
-                mov dx,ax
+main proc
+                mov ax,@data
+                mov ds,ax
                 mov si, offset num
     inputString:
                 mov ah,1
@@ -31,7 +32,6 @@ dosseg
                 int 21h
                 mov ah,4ch
                 int 21h
-
                 mov ah,4ch
                 int 21h
 main endp
